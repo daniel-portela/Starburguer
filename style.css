@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,15 +8,18 @@
     list-style: none;
     text-decoration: none;
 }
+
 :root{
     --red:#d63a25;
     --white:#fff;
     --dark:#1e1c2a;
 }
+
 body{
     color: var(--dark);
     background: var(--white);
 }
+
 .navigation{
     display: flex;
     align-items: center;
@@ -28,36 +31,48 @@ body{
     transition: all 0.5s;
     position: fixed;
 }
+
 .navigation .logo{
     color: var(--red);
     font-size: 1.7rem;
     font-weight: 600;
 }
+
+.navigation .img {
+    width: 5%;
+}
+
 .logo span{
     color: rgb(0, 0, 0);
 }
+
 .navigation ul{
     display: flex;
     align-items: center;
     gap: 5rem;
 }
+
 .navigation ul li a{
     color: var(--dark);
     font-size: 17px;
     font-weight: 500;
     transition: all 0.5s;
 }
+
 .navigation ul li a:hover{
     color: var(--red);
 }
+
 .navigation i{
     cursor: pointer;
     font-size: 1.5rem;
 }
+
 .menu{
     cursor: pointer;
     display: none;
 }
+
 .menu .bar{
     display: block;
     width: 28px;
@@ -67,10 +82,12 @@ body{
     margin: 5px auto;
     transition: all 0.3s;
 }
+
 .menu .bar:nth-child(1),
 .menu .bar:nth-child(3){
     background: var(--red);
 }
+
 .home{
     width: 100%;
     height: 100vh;
@@ -79,24 +96,27 @@ body{
     justify-content: space-between;
     padding: 0px 10%;
 }
+
 .home-text{
     max-width: 37rem;
 }
+
 .home-text .text-h4{
     font-size: 2.0rem;
     color: var(--red);
     margin-bottom: 1rem;
 }
+
 .home-text .text-h1{
     font-size: 3.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
     line-height: 4rem;
 }
+
 .home-text p{
     margin-bottom: 4rem;
 }
-
 
 .home-btn{
     padding: 15px 45px;
@@ -109,6 +129,7 @@ body{
 .home-btn:hover{
     background: #fc4c35;
 }
+
 .home-img img{
     width: 100%;
     border-radius: 10px;
@@ -117,15 +138,15 @@ body{
 #rodape {
     background-color: #1e1c2a;
     width: 100%;
-    height: 150px;
+    height: 300px;
     margin-top: 50px;
 }
+
 #rodape p {
     color: #ffffff;
     font-size: 16px;
     padding-top: 70px;
     text-align:center;
-   
 }
 
 
@@ -162,7 +183,6 @@ body{
     .nav-item{
         margin: 16px 0;
     }
-    /*main*/
     .home{
         padding: 100px 2%;
         flex-direction: column;
