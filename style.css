@@ -127,12 +127,131 @@ body{
     transition: all 0.5s;
 }
 .home-btn:hover{
-    background: #fc4c35;
+    background: #3549fc;
 }
 
 .home-img img{
     width: 100%;
     border-radius: 10px;
+}
+
+/*  sessão Contato  */
+.contact .title::after{
+    content: "Fale conosco";
+}
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content{
+    align-items: flex-start;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px
+}
+.contact .contact-content .row .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .row .info .sub-title{
+    color: #333;
+}
+.contact .contact-content .row ion-icon{
+    font-size: 25px;
+    color: #00804b;
+}
+.contact .rigth form .fields{
+    display: flex;
+}
+.contact .rigth form .field,
+.contact .rigth form .fields .field{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.contact .rigth form .field input,
+.contact .rigth form .textarea textarea{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+}
+.contact .rigth form .name{
+    margin-right: 10px;
+}
+.contact .rigth form .email{
+    margin-left: 10px;
+}
+.contact .rigth form .textarea{
+    width: 100%;
+    height: 80px;
+}
+.contact .rigth form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.contact .rigth form .button{
+    width: 170px;
+    height: 47px;
+}
+.contact .rigth form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #00804b;
+    background: #00804b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .rigth form .button button:hover{
+    color: #00804b;
+    background: none;
+}
+
+#footer {
+    height: 200px;
+    width: 100%;
+    background-color: #cbd3e5;
+}
+
+.sobre h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.sobre p {
+    color: #000000;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.midias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
